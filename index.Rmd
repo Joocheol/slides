@@ -1,35 +1,113 @@
 ---
-title: "Untitled"
-author: "Me"
-date: "3/25/2021"
+title: "Simple Linear Regression"
+author: "Joocheol Kim"
+date: "Spring, 2021"
 output: ioslides_presentation
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+# What is a simple linear regression?
 
+<div class="notes">
+Let's take a look at what I mean by simple linear regression.
+
+Right now, just take a feel what it looks like.
+
+Now the multiple linear regression looks like this.
+
+Can you see the differences?
+
+It has one more x. In fact, multiple linear regression have 
+
+If you want to learn something new, one of the ways is to try to find the differences between similar things.
+
+</div>
+
+
+## Regressions
+
+<div class="notes">
+What is a simple linear regression?
+
+If you want to learn something new, one of the ways is to try to find the differences between similar things.
+ 
+ 
+Did you know that there is a difference?
+
+Yes, the simple linear regression has one x.
+ 
+but the multiple linear regression has more than one variable.
+
+That's the reason why we 
+
+
+</div>
+
+>- simple linear regression 
+$$y = \beta_0 + \beta_1 x_1$$
+
+>- multiple linear regression
+$$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2$$
+
+>- logistic regression
+$$y = \frac{1}{1 + e^{-z}}, {\beta_0 + \beta_1 x_1 + \beta_2 x_2}$$
+
+
+## R Markdown
+
+This is an R
+
+# kkk
+hj
+
+9fjk
+
+
+
+```{r pressure}
+plot(pressure)
+```
 ## R Markdown
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
+
+
+
+
 ## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+```python
+x = np.array(x)
+y = np.array(y)
+```
 
 ## Slide with R Output
 
-```{r cars, echo = TRUE}
-summary(cars)
+```python
+# This is my model
+y_hat = x * 0.5 + 32.0
 ```
 
-## Slide with Plot
 
-```{r pressure}
-plot(pressure)
-```
+
+$\hat{y} = 0.5 x + 32.0$
+
+- So, what is this?
+
+<div class="notes">
+Now this is my model. 
+
+- It can contain markdown
+- like this list
+</div>
+
+## The Challenge in ML
+
+1. Find the mathematical structure
+1. Find the coeffients
+
+
+
 
