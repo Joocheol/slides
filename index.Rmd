@@ -49,12 +49,44 @@ $$y = \beta_0 + \beta_1 x_1$$
 $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2$$
 
 >- logistic regression
-$$y = \frac{1}{1 + e^{-z}}, {\beta_0 + \beta_1 x_1 + \beta_2 x_2}$$
+$$y = \frac{1}{1 + e^{-z}}, \quad z = \beta_0 + \beta_1 x_1 + \beta_2 x_2$$
+
+## Simple Linear Regression
+
+<div class="notes">
+What is a simple linear regression?
+
+If you want to learn something new, one of the ways is to try to find the differences between similar things.
+ 
+ 
+Did you know that there is a difference?
+
+Yes, the simple linear regression has one x.
+ 
+but the multiple linear regression has more than one variable.
+
+That's the reason why we 
 
 
-## R Markdown
+</div>
 
-This is an R
+```python
+beta_0 = 1
+beta_1 = 0.5
+y_hat = beta_0 + beta_1 * x
+```
+
+
+```python
+y_hat = w * x + b
+```
+
+```
+x  y  y_hat
+1 10    15
+2 20    24
+3 30    26
+```
 
 # kkk
 hj
