@@ -2,7 +2,9 @@
 title: "Simple Linear Regression"
 author: "Joocheol Kim"
 date: "Spring, 2021"
-output: ioslides_presentation
+output:
+  ioslides_presentation:
+    incremental: true
 ---
 
 # What is a simple linear regression?
@@ -41,13 +43,13 @@ That's the reason why we call it multiple.
 
 </div>
 
->- simple linear regression 
+- simple linear regression 
 $$y = \beta_0 + \beta_1 x_1$$
 
->- multiple linear regression
+- multiple linear regression
 $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2$$
 
->- logistic regression
+- logistic regression
 $$y = \frac{1}{1 + e^{-z}}, \quad z = \beta_0 + \beta_1 x_1 + \beta_2 x_2$$
 
 ## Simple Linear Regression
@@ -75,7 +77,7 @@ beta_1 = 0.5
 y_hat = beta_0 + beta_1 * x
 ```
 
-
+- second
 ```python
 y_hat = w * x + b
 ```
@@ -87,16 +89,7 @@ x  y  y_hat
 3 30    26
 ```
 
-# kkk
-hj
 
-9fjk
-
-
-
-```{r pressure}
-plot(pressure)
-```
 ## R Markdown
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -137,7 +130,44 @@ Now this is my model.
 ## The Challenge in ML
 
 1. Find the mathematical structure
-1. Find the coeffients
+1. Find the coefficients
+
+## Brute-force Search
+
+<div class="notes">
+Simply speaking, brute-force search is a very general problem-solving technique consists of enumerating all possible candidates for the solution and checking whether each candidate satisfies the problem's statement.
+</div>
+
+>- idea
+>- hh
+   ```python
+   for i in range(1,10,1):
+    for j in range(1,10,1):
+        print(i, j)
+   ```
+>- numpy
+```python
+numpy
+```
+
+## kj
+
+My Slide
+===
+incremental: true
+
+dkfjdls
+
+```python
+for i in range(1,10,1):
+    for j in range(1,10,1):
+        print(i, j)
+```
+
+
+
+
+
 
 
 
