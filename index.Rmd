@@ -8,15 +8,8 @@ output: ioslides_presentation
 # What is a simple linear regression?
 
 <div class="notes">
-Let's take a look at what I mean by simple linear regression.
 
-Right now, just take a feel what it looks like.
-
-Now the multiple linear regression looks like this.
-
-Can you see the differences?
-
-It has one more x. In fact, multiple linear regression have 
+What is a simple linear regression?
 
 If you want to learn something new, one of the ways is to try to find the differences between similar things.
 
@@ -26,18 +19,24 @@ If you want to learn something new, one of the ways is to try to find the differ
 ## Regressions
 
 <div class="notes">
-What is a simple linear regression?
 
-If you want to learn something new, one of the ways is to try to find the differences between similar things.
+There are many different types of regressions.
+
+Let's take a look at what I mean by simple linear regression.
+
+Right now, just take a feel what it looks like.
+
+
+This is a multiple linear regression.
  
- 
-Did you know that there is a difference?
+Did you catch differences?
 
 Yes, the simple linear regression has one x.
  
 but the multiple linear regression has more than one variable.
 
-That's the reason why we 
+That's the reason why we call it multiple.
+
 
 
 </div>
